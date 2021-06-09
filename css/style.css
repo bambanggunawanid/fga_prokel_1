@@ -212,7 +212,17 @@ h1.title-right {
 .p-mission {
   width: 100vh;
 }
-
+.build-by{
+  background-color: #d44816;
+  font-family: "Lato", sans-serif;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  bottom: 0;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
 /* Media Screen */
 @media only screen and (max-width: 700px) {
   .container {
