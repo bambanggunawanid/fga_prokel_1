@@ -13,6 +13,11 @@ body {
 a {
   text-decoration: none;
   color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: ease-in 0.5s;
+}
+a:hover{
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 li {
   text-decoration: none;
@@ -110,7 +115,7 @@ span{
 }
 .brand {
   display: flex;
-  padding: 0;
+  align-content: center;
 }
 .navbar-nav li {
   text-decoration: none;
@@ -142,17 +147,20 @@ h1.title-right{
   color:#fff;
 }
 .btn{
-  margin-left:400px;
-  height:30px;
-  width:190px;
-  border:none;
-  max-width:100%;
   background:#fff;
   line-height:0px;
-  letter-spacing: 10px;
   text-transform: uppercase;
+  letter-spacing: 8px;
   font-size:20px;
+  padding: 32px 48px;
   color:#333;
+  font-family: "furore", sans-serif;
+  transition: ease 0.5s;
+}
+.btn:hover{
+  transform: translate(0px,10px);
+  padding-bottom: 48px;
+  border-bottom: 1px solid white;
 }
 .btn-wrapper{
   padding-top:90px;
@@ -173,8 +181,32 @@ h1.title-right{
   background-size: cover;
   height: 100vh;
   padding: 24px 0;
+  color: white;
 }
-
+.li-block{
+  display: block;
+}
+.footer-list a,.footer-list h2{
+  color: #D44816 !important;
+}
+.footer-header {
+  background-color: #D44816 !important;
+}
+.text-white{
+  color: white;
+}
+.py-8{
+  padding: 12px 0;
+}
+.mx-24{
+  margin: 0 24px;
+}
+#footer{
+  height: 50vh;
+}
+.p-mission{
+  width: 100vh;
+}
 /* Media Screen */
 @media only screen and (max-width: 600px) {
   .container {
